@@ -7,7 +7,7 @@ import { BsGithub, BsLinkedin } from "react-icons/bs";
 import { FaFacebook, FaTwitterSquare } from "react-icons/fa";
 import { MdDownload } from "react-icons/md";
 import { RiContactsFill } from "react-icons/ri";
-import { SiLeetcode } from "react-icons/si";
+import { SiLeetcode, SiMedium } from "react-icons/si";
 import { FaXTwitter } from "react-icons/fa6";
 import TypingAnimation from "../../helper/typing-animation";
 import ScrollReveal from "../../helper/scroll-reveal";
@@ -76,6 +76,15 @@ function HeroSection() {
               className="transition-all text-[#FFA116] hover:scale-125 duration-300 glow-effect p-2 rounded-full"
             >
               <SiLeetcode size={30} />
+            </Link>
+          )}
+          {personalData.medium && (
+            <Link
+              href={personalData.medium}
+              target='_blank'
+              className="transition-all text-[#000000] hover:scale-125 duration-300 glow-effect p-2 rounded-full"
+            >
+              <SiMedium size={30} />
             </Link>
           )}
           {personalData.twitter && (

@@ -8,5 +8,6 @@ export const contactsData = {
     twitter: '',
     stackOverflow: '',
     leetcode: 'https://leetcode.com/u/akash_kumar916/',
+    medium: 'https://medium.com/@akash-kumar916',
     devUsername: "",
 }
