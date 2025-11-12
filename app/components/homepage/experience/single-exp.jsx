@@ -1,7 +1,6 @@
 import Image from 'next/image';
 import Link from 'next/link';
 import { FaCode, FaPlay } from 'react-icons/fa';
-import placeholder from '/public/png/placeholder.png';
 
 const SingleExp = ({ project }) => {
   const { name, description, tags, code, demo, image, features } = project;
@@ -40,13 +39,19 @@ const SingleExp = ({ project }) => {
           {name}
         </h2>
         <div className="p-6">
-          <Image
-            src={image ? image?.src : placeholder}
-            alt={name}
-            width={1080}
-            height={720}
-            className="w-80 h-64 transition-opacity duration-[0.7s] delay-[0.3s] rounded-lg group-hover:opacity-0"
-          />
+          {image?.src ? (
+            <Image
+              src={image.src}
+              alt={name}
+              width={1080}
+              height={720}
+              className="w-80 h-64 transition-opacity duration-[0.7s] delay-[0.3s] rounded-lg group-hover:opacity-0"
+            />
+          ) : (
+            <div className="w-80 h-64 bg-gradient-to-br from-violet-500 to-purple-600 rounded-lg flex items-center justify-center">
+              <span className="text-white text-4xl">💼</span>
+            </div>
+          )}
         </div>
         <div className="flex items-center justify-between w-full">
           <Link

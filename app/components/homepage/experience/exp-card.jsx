@@ -18,13 +18,19 @@ function ExpCard({ exp }) {
 
     {/* Image and company */}
     <div className="flex items-center space-x-2">
-      <Image
-        src={exp.image}  // Company logo image URL
-        alt="Company Logo"
-        width={50}        // Image size width
-        height={50}       // Image size height
-        className="rounded-full"  // Optional: makes the logo circular
-      />
+      {exp.image ? (
+        <Image
+          src={exp.image}  // Company logo image URL
+          alt="Company Logo"
+          width={50}        // Image size width
+          height={50}       // Image size height
+          className="rounded-full"  // Optional: makes the logo circular
+        />
+      ) : (
+        <div className="w-[50px] h-[50px] rounded-full bg-gradient-to-br from-violet-500 to-purple-600 flex items-center justify-center">
+          <span className="text-white text-sm font-semibold">{exp.company?.charAt(0) || '?'}</span>
+        </div>
+      )}
       <p className="text-center ml-3 text-[#fff] text-base lg:text-xl">
         {exp.company}
       </p>

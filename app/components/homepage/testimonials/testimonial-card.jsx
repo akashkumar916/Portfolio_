@@ -12,13 +12,19 @@ function TestimonialCard({ testimonial }) {
       <div className="px-4 lg:px-8 py-4">
         {/* Header with Image and Name */}
         <div className="flex items-start space-x-4">
-          <Image
-            src={testimonial.image}
-            alt={`${testimonial.name}'s Image`}
-            width={50}
-            height={50}
-            className="rounded-full"
-          />
+          {testimonial.image ? (
+            <Image
+              src={testimonial.image}
+              alt={`${testimonial.name}'s Image`}
+              width={50}
+              height={50}
+              className="rounded-full"
+            />
+          ) : (
+            <div className="w-[50px] h-[50px] rounded-full bg-gradient-to-br from-violet-500 to-purple-600 flex items-center justify-center">
+              <span className="text-white text-lg font-semibold">{testimonial.name?.charAt(0) || '?'}</span>
+            </div>
+          )}
           <div>
             <p className="text-[#16f2b3] text-lg font-semibold">{testimonial.name}</p>
             <p className="text-gray-400 text-sm">{testimonial.position}</p>

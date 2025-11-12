@@ -79,13 +79,19 @@ function Education() {
 
                         {/* Image Div pushed to the extreme right */}
                         <div className="ml-auto w-1/3 flex justify-end">
-                          <Image
-                            src={education.image} // Add an image path in your experience data
-                            alt="Experience Image"
-                            width={150}
-                            height={150}
-                            className="rounded-md object-cover"
-                          />
+                          {education.image ? (
+                            <Image
+                              src={education.image} // Add an image path in your experience data
+                              alt="Experience Image"
+                              width={150}
+                              height={150}
+                              className="rounded-md object-cover"
+                            />
+                          ) : (
+                            <div className="w-[150px] h-[150px] rounded-md bg-gradient-to-br from-violet-500 to-purple-600 flex items-center justify-center">
+                              <span className="text-white text-4xl">🎓</span>
+                            </div>
+                          )}
                         </div>
                       </div>
                     </div>
