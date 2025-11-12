@@ -1,50 +1,48 @@
 export const experiences = [
   {
     id: 1,
-    title: 'Software Engineer',
-    company: "Signarama",
-    duration: "(Aug 2024 - June 2025)",
-    tools: ['Python', 'Dialogflow', 'Trello', 'Automation', 'Task Management'],
-    image: '/png/signarama.png',
-    description: 'Developed a chatbot using Python and Dialogflow for internal use, improving onboarding and training efficiency by 20%. Designed and implemented automation solutions for Trello boards to streamline task management, resulting in a 35% increase in efficiency.'
+    title: 'Software Engineer 2',
+    company: "ServiceNow",
+    duration: "(June 2024 - Present)",
+    tools: ['Java', 'B-tree Indexing', 'Redis', 'Database Optimization', 'Fuzzy Search', 'Connection Pooling', 'RESTful APIs'],
+    image: '/png/now.png',
+    description: 'Achieved a 40% reduction in retrieval times by implementing B-tree indexing and Redis caching. Integrated fuzzy search support, enhancing result accuracy by 25% for over 10 million user queries each month. Reduced search times by 35% using advanced indexing techniques and optimizing database connections with connection pooling. Developed scriptable APIs and search profile scripts, increasing cross-platform search efficiency by 30%, and handling over 5 million requests per day.'
   },
   {
     id: 2,
-    title: "Data Science Researcher and Teaching Assistant",
-    company: "University of Maryland",
-    duration: "(May 2023 - Nov 2024)",
-    tools: ['Excel', 'Python', 'Tableau', 'Power BI', 'ETL', 'Data Visualization', 'Natural Language Processing', 'Mentorship'],
-    image: '/png/UMBC.jpg',
-    description: 'Managed 30+ datasets for the Center for Women in Tech assessment, generating 10+ reports and 30+ visualizations using Tableau and Power BI. Mentored 50 students in Natural Language Processing, providing tutoring and feedback. Employed advanced Excel functions and Python for ETL processes and data visualization.'
+    title: "Software Engineer Intern",
+    company: "AMD",
+    duration: "(Jan 2024 - May 2024)",
+    tools: ['Python', 'Streamlit', 'Machine Learning', 'Data Visualization', 'Data Processing', 'ML Models'],
+    image: '/png/amdlogo.jpg',
+    description: 'Designed and implemented a streamlined log analysis web app using Streamlit, ensuring efficient data visualizations. Optimized processor performance - GFLOPS, significantly enhancing computing efficiency by 40% using ML model. Streamlined a data processing pipeline, enhancing efficiency by 30% and enabling robust analytics capabilities.'
   },
   {
     id: 3,
-    title: 'Software Engineer',
-    company: "Accenture",
-    duration: "(Sept 2021- Aug 2022)",
-    tools: ['ASP.NET','Core MVC', 'MySQL', 'Jenkins', 'CI/CD', 'Unit Testing', 'Performance Optimization', 'Troubleshooting'],
-    image: '/png/accenture.png',
-    description: 'Redesigned an internal time tracker application using ASP.NET Core MVC, improving user experience and increasing reporting efficiency by 25%. Optimized application performance with unit testing and CI/CD pipelines using Jenkins, resulting in a 15-18% increase in page load times. Utilized advanced debugging and automated testing to achieve a 20% faster page load time.'
+    title: 'Software Engineer Intern',
+    company: "Juniper Networks",
+    duration: "(May 2023 - Aug 2023)",
+    tools: ['C/C++', 'Data Structures', 'Algorithms', 'Load Balancing', 'Data Caching', 'Memory Optimization'],
+    image: '/png/juniper.png',
+    description: 'Contributed to a Fabric architecture and executed a load-balancing algorithm that slashed latency by 20%. Enhanced routing algorithms with an advanced data caching mechanism, significantly improving system efficiency. Achieved a 30% reduction in memory overhead, enhancing overall application performance. Boosted algorithm execution time by 25%, leading to faster data processing.'
   },
   {
     id: 4,
     title: 'Software Engineer',
-    company: "La Net Team Software Solutions",
-    duration: "(Jan 2021 - Sept 2021)",
-    tools: ['React Native', 'TypeScript', 'Redux', 'AWS Amplify', 'AWS CloudWatch', 'AWS Pinpoint', 'Real-time Tracking', 'Multilingual Support'],
-    image: '/png/lanet.jpeg',
-    description: 'Designed and built a ridesharing application using React Native and TypeScript, integrating AWS services like Amplify, CloudWatch, and Pinpoint for efficient data management. Developed a restaurant application with real-time order tracking, interactive menus, and multilingual support, reducing order processing time by 30%.'
+    company: "Tekion Corp.",
+    duration: "(Nov 2021 - Jul 2022)",
+    tools: ['Java', 'Spring MVC', 'Hibernate', 'MySQL', 'Microservices', 'Thread Executor', 'RESTful APIs'],
+    image: '/png/tekion_logo.jpeg',
+    description: 'Worked on a payment system - Tekion Pay based on Spring MVC that handles over 30k monthly transactions. Engineered a transaction processing module for backend, utilizing Hibernate and MySQL, elevated transaction efficiency by 20%. Integrated microservices architecture in Tekion Pay by decomposing the monolithic backend into independently deployable services and 40% less downtime, enhancing system reliability. Created an asynchronous service with thread executor, streamlining onboarding & reducing manual API workload by 80%. Implemented content management for calculating tax and fees with low-latency APIs for 60% faster transactions.'
   },
-   {
+  {
     id: 5,
-    title: "Software Intern",
-    company: "Mokshit Infotech",
-    duration: "(May 2020 - Dec 2020)",
-    tools: ["React Native", "Node.js", "TypeScript", "Azure Services"],
-    image: '/png/mokshit.jpeg',
-    description: [
-      "Developed and maintained a cross-platform mobile application using React Native, seamlessly integrating Azure services to support and manage over 10,000 daily active users. Optimized server-side APIs with Node.js and TypeScript, reducing response times by 30% and enabling efficient data handling."
-    ]
-  } 
+    title: "Software Engineer",
+    company: "Acko Technology",
+    duration: "(Jun 2021 - Nov 2021)",
+    tools: ['Java', 'Docker', 'Redis', 'Database Optimization', 'Policy Management'],
+    image: '/png/acko.png',
+    description: 'Engineered a robust policy management portal, leveraging Docker to expedite deployment of policy cards; reduced processing time by 40% and enhanced scalability for seamless policy updates. Augmented Excel upload functionality by integrating Redis, optimizing database transactions and slashing processing time from 1.3 seconds to 0.5 seconds.'
+  },
 ]
 

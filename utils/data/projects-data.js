@@ -1,52 +1,58 @@
 export const projectsData = [
     {
         id: 1,
-        name: 'Cab Around',
-        tools: ['React Native', 'GraphQL', 'AWS', 'AWS Amplify', 'AWS S3', 'AWS CloudWatch'],
+        name: 'Micro Quiz Engine',
+        tools: ['Java', 'Spring Boot', 'PostgreSQL', 'Eureka', 'REST API', 'Microservices'],
         role: "Software Engineer",
         code: '',
-        demo: 'https://youtube.com/playlist?list=PLQePrdBWxlsXQREK6iZuaEPGVOKFoVBWh&si=GTli4NfW1-7ZAo7y',
-        description: 'Engineered a dual ridesharing app using React Native, GraphQL, and AWS services, achieving 99.5% uptime. Key features include vehicle-type booking, real-time driver updates, seamless payments, a chatbot boosting engagement by 15%, trip histories, and saved locations for 25% quicker bookings.'
+        demo: '',
+        description: 'Implemented a quiz application with a scalable microservices architecture and executed a high-performance API gateway, enabling dynamic scaling and load balancing. Boosted system performance by 40% and reduced response time by 50%.'
     },
     {
         id: 2,
-        name: 'Digi Mart',
-        tools: ['Java', 'MVC Architecture', 'HTML5', 'CSS3', 'JavaScript', 'Docker', 'Kubernetes', 'AWS'],
-        role: "Software Engineer",
+        name: 'Natural Language To Bash Commands',
+        tools: ['Python', 'NLP', 'Pandas', 'CNN', 'TensorFlow', 'Torch', 'Transformer', 'Seq2Seq'],
+        role: "Academic Project",
         code: '',
         demo: '',
-        description: 'Designed, developed, and deployed an e-commerce website with secure payment gateway integration, utilizing Java, MVC architecture, HTML5, CSS3, JavaScript, and third-party APIs. Containerized the application using Docker and deployed on a Kubernetes cluster for improved scalability and reliability.'
-
+        description: 'Orchestrated the implementation of a state-of-the-art Seq2Seq model with a Transformer-based Encoder-Decoder architecture, fine-tuning hyperparameters to achieve a 25% reduction in language translation errors. Integrated a custom transformer to generate Bash commands from natural language input (English), resulting in 74% accuracy.'
     },
     {
         id: 3,
-        name: 'Smart Personal Finance Assistant',
-        tools: ['Python', 'React.js','AWS','JavaScript', 'Machine Learning', 'Predictive Analytics', 'Pandas'],
-        role: "Software Engineer",
+        name: 'Interactive Resume',
+        tools: ['Phaser JS', 'HTML5', 'CSS3', 'JavaScript'],
+        role: "Portfolio",
         code: '',
         demo: '',
-        description: 'Developed a personal finance assistant using Python and React.js that helps users manage their expenses and savings through predictive analytics and personalized insights, resulting in a 25% increase in savings over six months. Created a machine learning model leveraging historical spending data to categorize transactions and forecast monthly budgets with 90% accuracy.'
-
+        description: 'Coded resume as a game by putting in over 200 hours and using different moving props and levels using Phaser JS.'
     },
     {
         id: 4,
-        name: "Flow - Travel Assistant",
-        tools: ["React Native", "Axios", "OpenAI API", "JavaScript", "Node.js"],
-        role: "Software Engineer",
-        code: "",
-        demo: "",
-        description: "Developed a  travel assistant mobile app using React Native that provides personalized travel recommendations and real-time assistance to users. Integrated OpenAI API to enable natural language processing for user queries, resulting in 40% more efficient trip planning."
+        name: 'Twitter Clone Simulator',
+        tools: ['Erlang', 'Actor Model', 'WebSocket', 'JSON', 'ETS', 'Distributed Systems'],
+        role: "Academic Project",
+        code: '',
+        demo: '',
+        description: 'Created a highly efficient Twitter clone in Erlang using an Actor model and WebSocket interface. Developed a multiple JSON-based API to retrieve the Tweets, Subscribers, queries, and replies from the ETS table in accordance with Zipf distribution. Tested the simulator for 90k users.'
     },
-        {
+    {
         id: 5,
-        name: "Weather Assistant",
-        tools: ["React Native", "TypeScript", "Open-Meteo API", "AWS", "iOS Notifications"],
-        role: "Software Engineer",
-        code: "",
-        demo: "",
-        description: "A sleek mobile application that acts as a personal weather assistant, providing real-time weather updates and additional insights using the Open-Meteo API. The app includes a modern UI, backend integration, and iOS notifications for unique weather updates."
+        name: 'Fault-Tolerant Distributed Bitcoin Miner',
+        tools: ['Erlang', 'Actor Model', 'SHA256', 'Distributed Systems', 'Master/Slave Model'],
+        role: "Academic Project",
+        code: '',
+        demo: '',
+        description: 'Created a fault-tolerant distributed bitcoin mining system based on the Erlang actor model, where 1000s actors were distributed over three client nodes employed on the Master/Slave model and hashed millions of bitcoin strings using SHA256 cryptographic hash function.'
     },
-    
+    {
+        id: 6,
+        name: 'Personalized Cancer Diagnosis Prediction',
+        tools: ['Python', 'Machine Learning', 'Classification', 'Natural Language Processing'],
+        role: "Academic Project",
+        code: '',
+        demo: '',
+        description: 'Model Classify the given genetic variations/mutations based on evidence from text-based clinical literature. This model helps Molecular pathologists to classify the cancer variations into 9 classes. Trained the model on more than 4k data points and achieve 97% accuracy.'
+    }
 ];
 
 // Do not remove any property.

@@ -7,6 +7,7 @@ import { FaFacebook, FaStackOverflow } from 'react-icons/fa';
 import { FaXTwitter } from "react-icons/fa6";
 import { IoLogoGithub, IoMdCall } from "react-icons/io";
 import { MdAlternateEmail } from "react-icons/md";
+import { SiLeetcode } from "react-icons/si";
 import ContactForm from './contact-form';
 
 function ContactSection() {
@@ -40,30 +41,46 @@ function ContactSection() {
             </p>
           </div>
           <div className="mt-8 lg:mt-16 flex items-center gap-5 lg:gap-10">
-            <Link target="_blank" href={personalData.github}>
-              <IoLogoGithub
-                 className="bg-[#171515] p-3 rounded-full hover:bg-[#16f2b3] hover:scale-110 transition-all duration-300 text-white cursor-pointer"
-                size={48}
-              />
-            </Link>
-            <Link target="_blank" href={personalData.linkedIn}>
-              <BiLogoLinkedin
-                className="bg-[#0a66c2] p-3 rounded-full hover:bg-[#16f2b3] hover:scale-110 transition-all duration-300 text-white cursor-pointer"
-                size={48}
-              />
-            </Link>
-            <Link target="_blank" href={personalData.twitter}>
-              <FaXTwitter
-                 className="bg-[#1DA1F2] p-3 rounded-full hover:bg-[#16f2b3] hover:scale-110 transition-all duration-300 text-white cursor-pointer"
-                size={48}
-              />
-            </Link>
-            <Link target="_blank" href={personalData.stackOverflow}>
-              <FaStackOverflow
-                 className="bg-[#F48024] p-3 rounded-full hover:bg-[#16f2b3] hover:scale-110 transition-all duration-300 text-white cursor-pointer"
-                size={48}
-              />
-            </Link>
+            {personalData.github && (
+              <Link target="_blank" href={personalData.github}>
+                <IoLogoGithub
+                   className="bg-[#171515] p-3 rounded-full hover:bg-[#16f2b3] hover:scale-110 transition-all duration-300 text-white cursor-pointer"
+                  size={48}
+                />
+              </Link>
+            )}
+            {personalData.linkedIn && (
+              <Link target="_blank" href={personalData.linkedIn}>
+                <BiLogoLinkedin
+                  className="bg-[#0a66c2] p-3 rounded-full hover:bg-[#16f2b3] hover:scale-110 transition-all duration-300 text-white cursor-pointer"
+                  size={48}
+                />
+              </Link>
+            )}
+            {personalData.twitter && (
+              <Link target="_blank" href={personalData.twitter}>
+                <FaXTwitter
+                   className="bg-[#1DA1F2] p-3 rounded-full hover:bg-[#16f2b3] hover:scale-110 transition-all duration-300 text-white cursor-pointer"
+                  size={48}
+                />
+              </Link>
+            )}
+            {personalData.stackOverflow && (
+              <Link target="_blank" href={personalData.stackOverflow}>
+                <FaStackOverflow
+                   className="bg-[#F48024] p-3 rounded-full hover:bg-[#16f2b3] hover:scale-110 transition-all duration-300 text-white cursor-pointer"
+                  size={48}
+                />
+              </Link>
+            )}
+            {personalData.leetcode && (
+              <Link target="_blank" href={personalData.leetcode}>
+                <SiLeetcode
+                   className="bg-[#FFA116] p-3 rounded-full hover:bg-[#16f2b3] hover:scale-110 transition-all duration-300 text-white cursor-pointer"
+                  size={48}
+                />
+              </Link>
+            )}
           </div>
         </div>
       </div>

@@ -1,15 +1,17 @@
-# Demo :movie_camera:
+# Portfolio - Akash Kumar :movie_camera:
 
-## View live preview [here](https://nehanooka.netlify.app/)
+A modern, creative portfolio website showcasing my work as a Software Engineer. Built with Next.js, featuring animated components, scroll effects, and a responsive design.
 
-![](./public/image/screen.mov)
+## Repository
+
+[GitHub Repository](https://github.com/akashkumar916/Portfolio_)
 
 ---
 
 ## Table of Contents :scroll:
 
 - [Sections](#sections-bookmark)
-- [Demo](#demo-movie_camera)
+- [Features](#features-sparkles)
 - [Installation](#installation-arrow_down)
 - [Getting Started](#getting-started-dart)
 - [Usage](#usage-joystick)
@@ -20,13 +22,28 @@
 
 # Sections :bookmark:
 
-- HERO SECTION
+- HERO SECTION (with typing animation)
 - ABOUT ME
 - EXPERIENCE
-- SKILLS
+- SKILLS & TECHNICAL EXPERTISE
 - PROJECTS
 - EDUCATION
-- CONTACTS
+- FUN FACTS & HIGHLIGHTS
+- RECOMMENDATIONS
+- CONTACT
+
+---
+
+# Features :sparkles:
+
+- ✨ **Animated Typing Effect** - Dynamic text animation in hero section
+- 🎨 **Scroll Reveal Animations** - Smooth fade-in effects on scroll
+- 🌈 **Animated Gradients** - Beautiful gradient text and backgrounds
+- 💫 **3D Card Effects** - Interactive hover effects on cards
+- 📊 **Progress Bars** - Visual representation of technical expertise
+- 🎯 **Sticky Scroll Sections** - Experience and Projects sections with sticky cards
+- 🚀 **Scroll Progress Indicator** - Visual progress bar at the top
+- 💡 **Glow Effects** - Subtle glow animations on interactive elements
 
 ---
 
@@ -48,14 +65,14 @@ git --version
 
 # Getting Started :dart:
 
-### Fork and Clone the repo
+### Clone the repository
 
-To Fork the repo click on the fork button at the top right of the page. Once the repo is forked open your terminal and perform the following commands
+Open your terminal and run the following commands:
 
 ```bash
-git clone https://github.com/<YOUR GITHUB USERNAME>/developer-portfolio.git
+git clone https://github.com/akashkumar916/Portfolio_.git
 
-cd developer-portfolio
+cd Portfolio_
 ```
 
 ### Install packages from the root directory
@@ -125,35 +142,35 @@ GMAIL_PASSKEY =
 EMAIL_ADDRESS =
 ```
 
-### Then, Customize data in the `utils/data` [folder](https://github.com/said7388/developer-portfolio/tree/main/utils/data).
+### Customize data in the `utils/data` folder
 
-Eg:
+Update the following files with your information:
+
+- `personal-data.js` - Your personal information and social links
+- `experience.js` - Your work experience
+- `projects-data.js` - Your projects
+- `educations.js` - Your education
+- `skills.js` - Your technical skills
+- `testimonials.js` - Recommendations/testimonials
+- `contactsData.js` - Contact information
+
+Example:
 
 ```javascript
 export const personalData = {
-  name: "NEHA NOOKA",
-  profile: "/profile.jpeg",
-  designation: "Software Developer",
-  description:
-    "My name is NEHA NOOKA, and I am a passionate and dedicated programmer with a strong drive for learning and exploring new technologies. I am a quick learner with a self-motivated approach, always eager to solve challenging problems and create impactful solutions.",
-  description2:
-    "My expertise spans multiple areas of web and software development, with a strong foundation in JavaScript and a keen interest in building dynamic, user-friendly applications. I thrive on making technology accessible and effective, contributing to innovative projects that leave a mark. I am open to exciting job opportunities that align with my skills and passion for development.",
-  email: "nookaneha@gmail.com",
-  phone: "+16673358435",
-  address: "Seattle WA, USA (Open to relocation)",
-  github: "https://github.com/NehaNooka",
-  facebook: "https://www.facebook.com/NehaNooka/",
-  linkedIn: "https://www.linkedin.com/in/neha-nooka/",
-  twitter: "https://twitter.com/nehanooka",
-  stackOverflow: "https://stackoverflow.com/users/29148012/neha-nooka",
-  leetcode: "https://leetcode.com/u/nehanooka/",
-  devUsername: "nehanooka",
-  resume:
-    "https://drive.google.com/file/d/1nzo6AEhlryO4dxACzpd0Hw8Krm0fuA_C/view?usp=sharing",
+  name: "AKASH KUMAR",
+  profile: '/png/akky.jpg',
+  designation: "Software Engineer",
+  description: "Hey there, I'm AKASH KUMAR! I'm a Software Engineer passionate about building scalable systems and optimizing performance...",
+  email: 'akashkumaruf@gmail.com',
+  phone: '(352)740-6786',
+  address: 'Seattle WA, USA (Open to relocation)',
+  github: 'https://github.com/akashkumar916',
+  linkedIn: 'https://www.linkedin.com/in/akashkumar',
+  leetcode: 'https://leetcode.com/u/akash_kumar916/',
+  resume: "https://drive.google.com/file/d/15bNhr7I1Xr4aod0F-VX3pX28lyRLJB6i/view?usp=sharing"
 };
 ```
-
-`devUsername` is used for fetching blog posts from `dev.to`.
 
 ---
 
@@ -223,12 +240,34 @@ This installs Next.js globally
 
 then do the usual `npm run dev`
 
-# After working on it locally, the steps to pull and push to repo:
+# Contributing :handshake:
 
-git pull origin master
+Contributions, issues, and feature requests are welcome!
+
+## After working on it locally, the steps to pull and push to repo:
+
+```bash
+git pull origin main
 
 git add .
 
-git commit -m "message"
+git commit -m "your commit message"
 
-git push origin master
+git push origin main
+```
+
+---
+
+# Author :technologist:
+
+**Akash Kumar**
+
+- GitHub: [@akashkumar916](https://github.com/akashkumar916)
+- LinkedIn: [Akash Kumar](https://www.linkedin.com/in/akashkumar)
+- LeetCode: [akash_kumar916](https://leetcode.com/u/akash_kumar916/)
+
+---
+
+# License :page_facing_up:
+
+This project is open source and available under the [MIT License](LICENSE).
