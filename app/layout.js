@@ -16,9 +16,9 @@ export const metadata = {
   description:
     "This is the portfolio of Akash Kumar. I am a Software Engineer passionate about building scalable systems and optimizing performance. I love to learn new things and I am always open to collaborating with others. I am a quick learner and I am always looking for new challenges.",
   icons: {
-    icon: '/png/akky.jpg',
-    shortcut: '/png/akky.jpg',
-    apple: '/png/akky.jpg',
+    icon: './public/png/akky.jpg',
+    shortcut: './public/png/akky.jpg',
+    apple: './public/png/akky.jpg',
   },
 };
 
