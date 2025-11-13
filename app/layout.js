@@ -15,6 +15,11 @@ export const metadata = {
   title: "Portfolio of Akash Kumar- Software Developer",
   description:
     "This is the portfolio of Akash Kumar. I am a Software Engineer passionate about building scalable systems and optimizing performance. I love to learn new things and I am always open to collaborating with others. I am a quick learner and I am always looking for new challenges.",
+  icons: {
+    icon: [
+      { url: '/icon.jpg', type: 'image/jpeg' },
+    ],
+  },
 };
 
 export default function RootLayout({ children }) {
